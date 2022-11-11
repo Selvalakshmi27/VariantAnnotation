@@ -15,4 +15,15 @@ The R script was built using R version 4.2.0. The following are the required dep
  + gtools (3.9.2.2)
  + GenomeInfoDb (1.32.2)
  + dplyr (1.0.9)
- +  
+
+## Usage
+For linux 
+```
+Rscript VariantAnnotation.R [input.vcf] [reference.gb] [output.csv]
+```
+- Download the VariantAnnotation.R script from above
+- input.vcf = The vcf file can be generated from tools such as snippy, samtools, freebayes etc
+- reference.gb = The reference genome should be in genbank full format. 
+- output.csv = Specify output file name in csv format. 
+
+The example output files can be found under examples folder.
