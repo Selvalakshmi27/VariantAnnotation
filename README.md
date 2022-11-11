@@ -26,4 +26,4 @@ Rscript VariantAnnotation.R [input.vcf] [reference.gb] [output.csv]
 - reference.gb = The reference genome should be in genbank full format. 
 - output.csv = Specify output file name in csv format. 
 
-The example output files can be found under examples folder.
+The example output file can be found above as coding-changes.csv
